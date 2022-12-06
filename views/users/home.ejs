@@ -1,0 +1,20 @@
+<%- include('../layouts/header.ejs')%>
+
+<h1></h1>
+
+<div class="padding">
+    <div class="col-md-8">
+        <!-- Column -->
+        <div class="card"> <img class="card-img-top" src="https://i.imgur.com/K7A78We.jpg" alt="Card image cap">
+            <div class="card-body little-profile text-center">
+                <div class="pro-img"><img src="userImages/<%= user.image %>" alt="<%= user.image %>"></div>
+                <h5 class="m-b-0"><%= user.email %></h5>
+                <h5 class="m-b-0">Name: <%= user.name %></h5>
+                
+                <h5 class="m-b-0">Mobile: <%= user.mobile %></h5>
+
+              
+            </div>
+        </div>
+    </div>
+</div>
